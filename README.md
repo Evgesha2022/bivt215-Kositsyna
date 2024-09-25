@@ -1,4 +1,5 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/cA8YaiaC)
+<a href="https://codeclimate.com/github/Evgesha2022/bivt215-Kositsyna/maintainability"><img src="https://api.codeclimate.com/v1/badges/2a4215755f75358bd521/maintainability" /></a>
 Реализовать можно на любом языке программирования.
 
 1. Создание приветствия. Поприветствуйте пользователя в игре. Спросите у пользователя его имя и поприветствуйте его по имени: Welcome to the Brain Games! May I have your name? John Hello, John!
