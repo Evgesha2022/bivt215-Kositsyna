@@ -24,7 +24,7 @@ def play_game(game, player_name):
                 f"Correct answer was '{correct_answer}'."
             )
             print(f"Let's try again, {player_name}!")
-            return
+    return
 
     # Если игрок правильно ответил на все вопросы
     print(f"Congratulations, {player_name}!")
