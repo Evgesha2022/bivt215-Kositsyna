@@ -13,11 +13,3 @@ def get_question():
     progression[hidden_index] = '..'
     question = " ".join(map(str, progression))
     return question, correct_answer
-
-
-def start_progression_game():
-    name = input("May I have your name? ")
-    return {
-        'name': name,
-        'get_question': get_question,
-    }

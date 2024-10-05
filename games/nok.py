@@ -17,10 +17,3 @@ def get_question():
     
     return question, correct_answer
 
-
-def start_lcm_game():
-    name = input("May I have your name? ")
-    return {
-        'name': name,
-        'get_question': get_question,
-    }

@@ -5,10 +5,10 @@ import os
 # Добавляем корневую директорию проекта в пути поиска модулей
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from src.cli import welcome_user  # noqa: E402
-from src.engine import play_game  # noqa: E402
-from games.nok import get_question as nok_question  # noqa: E402
-from games.geom_progr import get_question as progression_question  # noqa: E402
+from src.cli import welcome_user
+from src.engine import play_game 
+from games.nok import get_question as nok_question 
+from games.geom_progr import get_question as progression_question  
 
 # Меню с играми
 games = {
